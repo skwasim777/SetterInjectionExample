@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans  
+                http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	<bean id="que" class="com.spring.Question">
+		<property name="id" value="1"></property>
+		<property name="name" value="What is java ?"></property>
+		<property name="answers">
+			<map>
+				<entry key="java is programming language" value="wasim"></entry>
+				<entry key="java is simple" value="salman"></entry>
+				<entry key="java is platform" value="lukman"></entry>
+			</map>
+		</property>
+
+	</bean>
+</beans>
